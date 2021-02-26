@@ -80,6 +80,7 @@ class _WhatsappState extends State<Whatsapp> {
   }
 }
 
+//chatTile
 Widget chatTile(
     Icon icon, String userName, String msg, String date, bool seen) {
   return InkWell(
